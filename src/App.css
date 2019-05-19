@@ -3,7 +3,7 @@ html, body, #root {
   color: black;
   height: 100%;
   font-family: monospace;
-  font-size: 23px;
+  font-size: 12px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,7 +71,6 @@ hr {
 }
 
 #waveforms {
-  width: 1000px;
   margin: auto;
 }
 

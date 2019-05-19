@@ -9,13 +9,15 @@ class MyComponent extends React.Component {
     isPlaying: false
   };
   componentDidMount() {
+    
     var wavesurfer = window.WaveSurfer.create({
       container: '#waveforms',
       waveColor: 'navy',
       progressColor: 'purple',
       barWidth: 2,
-      height: 240
-      // maxCanvasWidth: '800px'
+      height: 240,
+      maxCanvasWidth: 300,
+      scrollParent: true,
     });
     wavesurfer.load('/dol.mp3');
     wavesurfer.on('finish', this.togglePlaying);
@@ -23,6 +25,7 @@ class MyComponent extends React.Component {
     //   wavesurfer.play();
     // });
     this.setState({ wavesurfer });
+
   }
   togglePlaying = () => {
     const { wavesurfer, isPlaying } = this.state;
