@@ -27,7 +27,7 @@ class App extends React.Component {
           <div>
             <h1>"Down on Love"</h1>
             <h3>by Helios Hype</h3>
-            <strong><a href="/dol.mp3" download="dol.mp3">mp3 download</a></strong><br/><br/>
+            <strong><a href="https://pawnjefferson.github.io/trackz/dol.mp3" download="dol.mp3">mp3 download</a></strong><br/><br/>
             <hr/>
             <pre>
             I was thinking of the sun<br/>
