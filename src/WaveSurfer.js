@@ -19,7 +19,7 @@ class MyComponent extends React.Component {
       maxCanvasWidth: 300,
       scrollParent: true,
     });
-    wavesurfer.load('/dol.mp3');
+    wavesurfer.load('dol.mp3');
     wavesurfer.on('finish', this.togglePlaying);
     // wavesurfer.on('ready', function () {
     //   wavesurfer.play();
