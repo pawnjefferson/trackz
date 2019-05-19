@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "255618b85eb72b21c2515a1356468c3b",
+    "revision": "e8bb4732e95bf79a4a448d7f5d3c8d88",
     "url": "/trackz/index.html"
   },
   {
-    "revision": "1ba9b6884d5a17e26c2f",
+    "revision": "32fe14538053c936af65",
     "url": "/trackz/static/css/main.93cb4068.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trackz/static/js/2.98dcc9dd.chunk.js"
   },
   {
-    "revision": "1ba9b6884d5a17e26c2f",
-    "url": "/trackz/static/js/main.387f17db.chunk.js"
+    "revision": "32fe14538053c936af65",
+    "url": "/trackz/static/js/main.70ec03db.chunk.js"
   },
   {
     "revision": "1050fd7844cba41bb9f6",
