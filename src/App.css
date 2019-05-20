@@ -3,7 +3,11 @@ html, body, #root {
   color: black;
   height: 100%;
   font-family: monospace;
-  font-size: 12px;
+  font-size: 15px;
+}
+
+a, a:visited {
+  color: blue;
 }
 
 h1, h2, h3, h4, h5 {
@@ -80,16 +84,16 @@ hr {
   /* width: 100%; */
   background-color: #eee;
   padding: 10px;    
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 
   margin-top: 30px;
 }
 
 
 .ws-player button {
-  height: 260px;
-  min-width: 260px;
+  height: 20vh;
+  min-width: 20vh;
   font-size: 100px;
   border: 1px solid grey;
   margin: 20px;
@@ -98,6 +102,21 @@ hr {
   position:relative;
   top: 10px;
 }
+.ws-player button:hover {
+  background-color: yellow;
+}
 .ws-player button:focus {
   outline: 0;
+}
+
+.animate {
+  -webkit-animation: myfirst 3s;
+  animation: myfirst 3s;
+}
+
+@keyframes myfirst {
+  0% {background: yellow;}
+ /* 40% {background: gray;} */
+ 50% {background: green;}
+100% {background: yellow;}
 }

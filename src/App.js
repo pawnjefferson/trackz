@@ -7,17 +7,18 @@ import dolImage from './dol.jpg';
 class App extends React.Component {
   setWaveFormWidth = () => {
     const width = Number(window.getComputedStyle(document.querySelector('.ws-player')).width.slice(0, -2));
-    document.getElementById('waveforms').style.width = `${width-400}px`;
+    document.getElementById('waveforms').style.width = `${width-300}px`;
   }
   componentDidMount() {
     this.setWaveFormWidth();
     window.onresize = this.setWaveFormWidth;
   }
   render () {
+    const src = "dol.mp3";
     return (
       <div className="App">
   
-        <WaveSurfer/>
+        <WaveSurfer src={src}/>
   
         <div className="two-column">  
   

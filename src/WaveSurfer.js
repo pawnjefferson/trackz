@@ -33,6 +33,10 @@ class MyComponent extends React.Component {
       wavesurfer.pause();
     } else {
       wavesurfer.play();
+      document.querySelector('.ws-player button').classList.add("animate");
+      setTimeout(() => {
+        document.querySelector('.ws-player button').classList.remove("animate");
+      }, 5000);
     }
     this.setState({ isPlaying: !isPlaying });
   };
